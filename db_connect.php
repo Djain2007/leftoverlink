@@ -3,10 +3,10 @@
 session_start();
 
 // Database credentials
-$db_host = 'localhost';
-$db_user = 'root';
-$db_pass = '';
-$db_name = 'leftoverlink_db';
+$db_host = 'sql104.infinityfree.com';
+$db_user = 'if0_39563886';
+$db_pass = 'Sailg08531';
+$db_name = 'if0_39563886_leftoverlink';
 
 // Create a new MySQLi object for database connection
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
